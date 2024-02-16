@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/sm6375-common/holi.mk)
 # Call the ViperFX Config
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
+# Google Camera
+$(call inherit-product-if-extsts, vendor/xiaomi/stone-gcam/Camera-vendor.mk)
+
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Device uses high-density artwork where available
