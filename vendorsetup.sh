@@ -10,4 +10,3 @@ git clone --depth=1 https://github.com/Stone-Trees/hardware_xiaomi.git hardware/
 
 git clone --depth=1 https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git -b v4a packages/apps/ViPER4AndroidFX
 
-git clone https://github.com/AMRITO1/vendor_xiaomi_stone-gcam.git vendor/xiaomi/stone-gcam
